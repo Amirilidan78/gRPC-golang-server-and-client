@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+
+  app :
+    build:
+      target : prod
+    ports:
+      - "9000:9000"
